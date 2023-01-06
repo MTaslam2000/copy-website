@@ -31,5 +31,39 @@ header .logo {
 }
 
 main {
-    padding: 20px;
+    height: 900px;
+    flex-direction: column;
+    display: grid;
+    border: solid black 1px;
+    grid-template-columns: 20% 70% 10%;
+    
 }
+
+section {
+    border: solid black 1px;
+}
+
+.middle {
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+    border: solid black 1px;
+}
+
+.middle-center {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.middle-top {
+    border: solid black 1px;
+}
+
+.middle-bottom {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    border: solid black 1px;
+}
+
+
