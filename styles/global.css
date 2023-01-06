@@ -31,5 +31,23 @@ header .logo {
 }
 
 main {
-    padding: 20px;
+    height: 900px;
+    flex-direction: column;
+    display: grid;
+    border: solid black 1px;
+    grid-template-columns: 20% 70% 10%;
 }
+
+div {
+    height: 450px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    border: solid black 1px;
+}
+
+.middle {
+    border: solid black 1px;
+}
+
+
+
